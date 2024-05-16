@@ -221,3 +221,81 @@ second_number = 5
 result = first_number + second_number
 print(result)
 ```
+
+### Comparison Operators
+One thing that comes up very often when programming is the comparison of two values, how else will we know if apples 
+are the same as oranges?!
+
+In python (and most other programming languages!), the following comparison operators are provided to us:
+
+- `==`: This checks if one thing "is equal to" another.
+- `!=`: This checks if on thing "is not equal to" another.
+- `>`: This checks if a thing is "greater than" another.
+- `<`: This checks if a thing is "less than" another.
+- `>=`: This checks if a thing is "greater than or equal to" another thing.
+- `<=`: This checks if a thing is "less than or equal to" another thing.
+
+Ok, ok... but how do I actually use them?! Let's see them in action:
+
+```python
+var1 = 36
+var2 = 36
+
+# lets compare the two variables above and print the result
+print(var1 == var2) # this prints True
+```
+
+In the example above, we create two variables (`var1` and `var2`) that are both given the same value: `36`. Then we 
+compare the values with the "is equal to" operator and print the result!
+
+Below are examples of all the operators in action!
+
+```python
+a = 10
+b = 5
+
+print("Equal to:", a == b)                  # Output: False
+print("Not equal to:", a != b)              # Output: True
+print("Greater than:", a > b)               # Output: True
+print("Less than:", a < b)                  # Output: False
+print("Greater than or equal to:", a >= b)  # Output: True
+print("Less than or equal to:", a <= b)     # Output: False
+```
+
+### Logical Operators
+No, not more operators! Yes, but don't worry, these are the last ones we need for now!
+
+Logical operators are fundamental to how computers work, and when put together, can be very powerful! They allow us to
+combine True and False statements. For now, I will list the logical operators below, and explain them after:
+
+- `and`: returns true if both things are True.
+- `or`: returns true if either thing is True.
+- `not`: returns the opposite of what the thing is!
+
+```python
+# and statements
+print(True and True) # prints True
+print(True and False) # prints False
+print(False and False) # prints False
+
+# or statements
+print(True or True) # prints True
+print(True or False) # prints True
+print(False or False) # prints False
+
+# not statements
+print(not True) # prints False
+print(not False) # prints True
+```
+
+Wow, that's a lot of things to remember! But when would I use these operators??
+
+Well, when you want to do something when more than one thing is true, for example:
+- When do you want to put an umbrella up?
+  - When it is raining **AND** you are outside!
+
+If it was raining but you where inside, then you wouldn't need the umbrella! (Not unless you want bad luck!) But if 
+you are outside and it is raining, then the umbrella would be very useful!
+
+Don't worry if this doesn't all make sense yet, we will explore this more in the next lesson, but well done! You 
+have reached the end of lesson 1! Now go hand have a well-earned break!!
